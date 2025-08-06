@@ -1,0 +1,75 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+
+  background: linear-gradient(301deg, rgba(250, 218, 221, 1) 0%, rgba(180, 151, 189, 1) 50%, rgba(59, 110, 113, 1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  color: #2A2A2A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* mainContainer */
+.container {
+  background-color: rgba(255, 255, 255, 0.85); 
+  padding: 25px;
+  border-radius: 16px;
+  max-width: 420px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(59, 110, 113, 0.25); 
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+input[type="text"], textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #B497BD; 
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #2A2A2A;
+}
+
+
+button {
+  padding: 10px;
+  margin: 5px;
+  width: 45%;
+  border-radius: 8px;
+  border: none;
+  background-color: #3B6E71; 
+  color: #FADADD;       
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #B497BD; 
+  color: #FFFFFF;
+}
+
+.result {
+  margin-top: 15px;
+  text-align: left;
+  background-color: rgba(250, 218, 221, 0.8); 
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 4px solid #3B6E71;
+  color: #2A2A2A;
+}
+
+
+#noteTimestamp {
+  font-size: 0.85em;
+  color: #6C757D;
+}

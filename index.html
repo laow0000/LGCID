@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Client GCID Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Client GCID Search</h2>
+    <input type="text" id="nameInput" placeholder="Enter client name or ID..." />
+    <button onclick="searchClient()">Find</button>
+    <div id="result" class="result"></div>
+
+    <!-- Notes -->
+    <textarea id="notes" rows="4" placeholder="Add a short note..."></textarea><br />
+    <button onclick="saveNote()">Save Note</button>
+    <button onclick="deleteNote()">Delete Note</button>
+
+    <p id="noteTimestamp"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
